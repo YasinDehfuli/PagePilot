@@ -1,0 +1,23 @@
+{
+  "name": "pagepilot",
+  "version": "1.0.0",
+  "description": "PagePilot",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server .",
+    "watch": "sass ./assets/scss/main.scss ./assets/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasinDehfuli/PagePilot.git"
+  },
+  "author": "YasinDehfuli",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/YasinDehfuli/PagePilot/issues"
+  },
+  "homepage": "https://github.com/YasinDehfuli/PagePilot#readme",
+  "dependencies": {
+    "remixicon": "^4.1.0"
+  }
+}
