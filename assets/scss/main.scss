@@ -1,0 +1,33 @@
+//Dashboard
+@import "Dashboard";
+
+//Components
+@import "index/IndexHeader";
+@import "index/IndexHero";
+@import "component/Footer";
+
+
+// * Changes
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #2487ce;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #469fdf;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
