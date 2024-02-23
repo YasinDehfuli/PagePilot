@@ -1,0 +1,308 @@
+//IndexHeader
+#header {
+  transition: all 0.5s;
+  background: #fff;
+  z-index: 997;
+  padding: 15px 0;
+  border-bottom: 1px solid #e6f2fb;
+  .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-family: $font-family;
+    a {
+      color: $txt-black;
+    }
+    img {
+      max-height: 40px;
+    }
+  }
+}
+#header.header-scrolled {
+  border-color: $br-black;
+  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}
+.navbar {
+  padding: 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  li {
+    position: relative;
+    &:hover {
+      >a {
+        color: $txt-hover;
+      }
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 14px;
+    color: $txt-black;
+    white-space: nowrap;
+    transition: 0.3s;
+    &:focus {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0 10px 30px;
+      font-size: 14px;
+      color: $txt-black;
+      white-space: nowrap;
+      transition: 0.3s;
+      i {
+        font-size: 12px;
+        line-height: 0;
+        margin-left: 5px;
+      }
+    }
+    i {
+      font-size: 12px;
+      line-height: 0;
+      margin-left: 5px;
+    }
+    &:hover {
+      color: $txt-hover;
+    }
+  }
+  .active {
+    color: $txt-hover;
+    &:focus {
+      color: $txt-hover;
+    }
+  }
+  .getstarted {
+    background: $txt-black;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: $bg-main;
+    &:focus {
+      background: $txt-hover;
+      padding: 8px 20px;
+      margin-left: 30px;
+      border-radius: 4px;
+      color: $bg-main;
+      &:hover {
+        color: $bg-main;
+        background: $txt-hover;
+      }
+    }
+    &:hover {
+      color: $bg-main;
+      background: $txt-hover;
+    }
+  }
+  .dropdown {
+    ul {
+      display: block;
+      position: absolute;
+      left: 14px;
+      top: calc(100% + 30px);
+      margin: 0;
+      padding: 10px 0;
+      z-index: 99;
+      opacity: 0;
+      visibility: hidden;
+      background: #fff;
+      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+      transition: 0.3s;
+      border-radius: 4px;
+      li {
+        min-width: 200px;
+        &:hover {
+          >a {
+            color: $txt-hover;
+          }
+        }
+      }
+      a {
+        padding: 10px 20px;
+        text-transform: none;
+        i {
+          font-size: 12px;
+        }
+        &:hover {
+          color: $txt-hover;
+        }
+      }
+      .active {
+        &:hover {
+          color: $txt-hover;
+        }
+      }
+    }
+    &:hover {
+      >ul {
+        opacity: 1;
+        top: 100%;
+        visibility: visible;
+      }
+    }
+    .dropdown {
+      ul {
+        top: 0;
+        left: calc(100% - 30px);
+        visibility: hidden;
+      }
+      &:hover {
+        >ul {
+          opacity: 1;
+          top: 0;
+          left: 100%;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+.mobile-nav-toggle {
+  color: $txt-black;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+.mobile-nav-toggle.bi-x {
+  color: $bg-main;
+}
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(10, 38, 58, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+  .mobile-nav-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    background-color: $bg-main;
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+  a {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: $txt-hover;
+    &:focus {
+      padding: 10px 20px;
+      font-size: 15px;
+      color: $txt-hover;
+    }
+    &:hover {
+      color: $txt-hover;
+    }
+  }
+  .active {
+    color: $txt-hover;
+  }
+  li {
+    &:hover {
+      >a {
+        color: $txt-hover;
+      }
+    }
+  }
+  .getstarted {
+    margin: 15px;
+    &:focus {
+      margin: 15px;
+    }
+  }
+  .dropdown {
+    ul {
+      position: static;
+      display: none;
+      margin: 10px 20px;
+      padding: 10px 0;
+      z-index: 99;
+      opacity: 1;
+      visibility: visible;
+      background: #fff;
+      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+      li {
+        min-width: 200px;
+        &:hover {
+          >a {
+            color: $txt-hover;
+          }
+        }
+      }
+      a {
+        padding: 10px 20px;
+        i {
+          font-size: 12px;
+        }
+        &:hover {
+          color: $txt-hover;
+        }
+      }
+      .active {
+        &:hover {
+          color: $txt-hover;
+        }
+      }
+    }
+    >.dropdown-active {
+      display: block;
+    }
+  }
+}
+@media (max-width: 992px) {
+  #header {
+    .logo {
+      font-size: 28px;
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .navbar {
+    .dropdown {
+      .dropdown {
+        ul {
+          left: -90%;
+        }
+        &:hover {
+          >ul {
+            left: -100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+  .navbar {
+    ul {
+      display: none;
+    }
+  }
+}
+//IndexHeader
