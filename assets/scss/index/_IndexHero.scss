@@ -51,9 +51,12 @@ $font-family: "Poppins", sans-serif;
     margin-top: 30px;
     color: $color-white;
     background: $color-black;
+    border: $br-black;
 
     &:hover {
-      background: $text-hover;
+      background: $color-white;
+      color: $color-black;
+      border: $br-black;
     }
   }
 
