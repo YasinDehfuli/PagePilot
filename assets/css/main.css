@@ -393,6 +393,86 @@
     line-height: 24px;
   }
 }
+#weblink {
+  position: relative;
+}
+#weblink .section-bg {
+  padding: 120px 0;
+  color: #fff;
+}
+#weblink .section-bg:before {
+  content: "";
+  background: #000;
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(4deg);
+}
+#weblink .weblink .container {
+  position: relative;
+  z-index: 10;
+}
+#weblink .weblink .content {
+  padding: 30px 30px 30px 0;
+}
+#weblink .weblink .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+#weblink .weblink .content p {
+  margin-bottom: 30px;
+}
+#weblink .weblink .content .weblink-btn {
+  padding: 8px 30px 9px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #fff;
+}
+#weblink .weblink .content .weblink-btn i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+#weblink .weblink .content .weblink-btn:hover {
+  background: #fff;
+  color: #000;
+}
+#weblink .weblink .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+#weblink .weblink .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+#weblink .weblink .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+#weblink .weblink .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #333;
+}
+@media (max-width: 1200px) {
+  #weblink .weblink .content {
+    padding-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  #weblink .weblink {
+    text-align: center;
+  }
+}
+
 #footer {
   background: url("../../../assets/img/bg/footer-bg.webp") no-repeat;
   background-size: cover;
