@@ -87,21 +87,25 @@
   margin-left: 30px;
   border-radius: 4px;
   color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.208);
 }
 .navbar .getstarted:focus {
-  background: #333;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #000;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.208);
 }
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #333;
+  color: #000;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.208);
 }
 .navbar .getstarted:hover {
-  color: #fff;
-  background: #333;
+  color: #000;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.208);
 }
 .navbar .dropdown ul {
   display: block;
@@ -320,9 +324,12 @@
   margin-top: 30px;
   color: #fff;
   background: #000;
+  border: 1px solid rgba(0, 0, 0, 0.208);
 }
 #hero .btn-get-started:hover {
-  background: #333;
+  background: #fff;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.208);
 }
 #hero .icon-boxes {
   margin-top: 100px;
