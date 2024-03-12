@@ -1,5 +1,5 @@
 //Footer
-$bg-main: #fff;
+$color-white: #fff;
 $font-family_1: "Poppins", sans-serif;
 
 #footer {
@@ -7,7 +7,7 @@ $font-family_1: "Poppins", sans-serif;
   background-size: cover;
   background-attachment: scroll;
   width: 100%;
-  color: $bg-main;
+  color: $color-white;
   font-size: 14px;
   position: relative;
   &::before {
@@ -28,7 +28,7 @@ $font-family_1: "Poppins", sans-serif;
     h3 {
       font-size: 36px;
       font-weight: 700;
-      color: $bg-main;
+      color: $color-white;
       position: relative;
       font-family: $font-family_1;
       padding-bottom: 0;
@@ -65,13 +65,13 @@ $font-family_1: "Poppins", sans-serif;
           background: none;
           font-size: 16px;
           padding: 0 20px;
-          background: $txt-black;
-          color: $bg-main;
+          background: $color-black;
+          color: $color-white;
           transition: 0.3s;
           border-radius: 50px;
           box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
           &:hover {
-            background: $txt-hover;
+            background: $text-hover;
           }
         }
       }
@@ -81,8 +81,8 @@ $font-family_1: "Poppins", sans-serif;
       a {
         font-size: 18px;
         display: inline-block;
-        background: $txt-black;
-        color: $bg-main;
+        background: $color-black;
+        color: $color-white;
         line-height: 1;
         padding: 8px 0;
         margin-right: 4px;
@@ -92,8 +92,8 @@ $font-family_1: "Poppins", sans-serif;
         height: 36px;
         transition: 0.3s;
         &:hover {
-          background: $txt-hover;
-          color: $bg-main;
+          background: $text-hover;
+          color: $color-white;
           text-decoration: none;
         }
       }
@@ -109,7 +109,7 @@ $font-family_1: "Poppins", sans-serif;
   .copyright {
     text-align: center;
     float: left;
-    color: $txt-black;
+    color: $color-black;
   }
   .credits {
     float: right;

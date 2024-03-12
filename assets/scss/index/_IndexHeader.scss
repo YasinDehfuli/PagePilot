@@ -14,7 +14,7 @@
     letter-spacing: 0.5px;
     font-family: $font-family;
     a {
-      color: $txt-black;
+      color: $color-black;
     }
     img {
       max-height: 40px;
@@ -38,7 +38,7 @@
     position: relative;
     &:hover {
       >a {
-        color: $txt-hover;
+        color: $text-hover;
       }
     }
   }
@@ -48,7 +48,7 @@
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-size: 14px;
-    color: $txt-black;
+    color: $color-black;
     white-space: nowrap;
     transition: 0.3s;
     &:focus {
@@ -57,7 +57,7 @@
       justify-content: space-between;
       padding: 10px 0 10px 30px;
       font-size: 14px;
-      color: $txt-black;
+      color: $color-black;
       white-space: nowrap;
       transition: 0.3s;
       i {
@@ -72,35 +72,35 @@
       margin-left: 5px;
     }
     &:hover {
-      color: $txt-hover;
+      color: $text-hover;
     }
   }
   .active {
-    color: $txt-hover;
+    color: $text-hover;
     &:focus {
-      color: $txt-hover;
+      color: $text-hover;
     }
   }
   .getstarted {
-    background: $txt-black;
+    background: $color-black;
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 4px;
-    color: $bg-main;
+    color: $color-white;
     &:focus {
-      background: $txt-hover;
+      background: $text-hover;
       padding: 8px 20px;
       margin-left: 30px;
       border-radius: 4px;
-      color: $bg-main;
+      color: $color-white;
       &:hover {
-        color: $bg-main;
-        background: $txt-hover;
+        color: $color-white;
+        background: $text-hover;
       }
     }
     &:hover {
-      color: $bg-main;
-      background: $txt-hover;
+      color: $color-white;
+      background: $text-hover;
     }
   }
   .dropdown {
@@ -122,7 +122,7 @@
         min-width: 200px;
         &:hover {
           >a {
-            color: $txt-hover;
+            color: $text-hover;
           }
         }
       }
@@ -133,12 +133,12 @@
           font-size: 12px;
         }
         &:hover {
-          color: $txt-hover;
+          color: $text-hover;
         }
       }
       .active {
         &:hover {
-          color: $txt-hover;
+          color: $text-hover;
         }
       }
     }
@@ -167,7 +167,7 @@
   }
 }
 .mobile-nav-toggle {
-  color: $txt-black;
+  color: $color-black;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -175,7 +175,7 @@
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: $bg-main;
+  color: $color-white;
 }
 .navbar-mobile {
   position: fixed;
@@ -200,30 +200,30 @@
     bottom: 15px;
     left: 15px;
     padding: 10px 0;
-    background-color: $bg-main;
+    background-color: $color-white;
     overflow-y: auto;
     transition: 0.3s;
   }
   a {
     padding: 10px 20px;
     font-size: 15px;
-    color: $txt-hover;
+    color: $text-hover;
     &:focus {
       padding: 10px 20px;
       font-size: 15px;
-      color: $txt-hover;
+      color: $text-hover;
     }
     &:hover {
-      color: $txt-hover;
+      color: $text-hover;
     }
   }
   .active {
-    color: $txt-hover;
+    color: $text-hover;
   }
   li {
     &:hover {
       >a {
-        color: $txt-hover;
+        color: $text-hover;
       }
     }
   }
@@ -248,7 +248,7 @@
         min-width: 200px;
         &:hover {
           >a {
-            color: $txt-hover;
+            color: $text-hover;
           }
         }
       }
@@ -258,12 +258,12 @@
           font-size: 12px;
         }
         &:hover {
-          color: $txt-hover;
+          color: $text-hover;
         }
       }
       .active {
         &:hover {
-          color: $txt-hover;
+          color: $text-hover;
         }
       }
     }
