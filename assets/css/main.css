@@ -403,6 +403,26 @@
 #weblink {
   position: relative;
 }
+#weblink .weblink-btn {
+  padding: 8px 30px 9px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #fff;
+}
+#weblink .weblink-btn i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+#weblink .weblink-btn:hover {
+  background: #fff;
+  color: #000;
+}
 #weblink .section-bg {
   padding: 120px 0;
   color: #fff;
@@ -431,26 +451,6 @@
 }
 #weblink .weblink .content p {
   margin-bottom: 30px;
-}
-#weblink .weblink .content .weblink-btn {
-  padding: 8px 30px 9px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 13px;
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #fff;
-}
-#weblink .weblink .content .weblink-btn i {
-  font-size: 16px;
-  padding-left: 5px;
-}
-#weblink .weblink .content .weblink-btn:hover {
-  background: #fff;
-  color: #000;
 }
 #weblink .weblink .icon-boxes .icon-box {
   margin-top: 30px;
