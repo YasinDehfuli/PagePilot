@@ -67,7 +67,7 @@
       justify-content: space-between;
       padding: 10px 0 10px 30px;
       font-size: 14px;
-      color: $color-black;
+      color: $text-hover;
       white-space: nowrap;
       transition: 0.3s;
 
@@ -121,7 +121,7 @@
     }
 
     &:hover {
-      color: $color-black;
+      color: $text-hover;
       background: $color-white;
       border: $br-black;
     }
