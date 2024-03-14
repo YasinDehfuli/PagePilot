@@ -1,0 +1,44 @@
+//IndexCta
+#community {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../../../assets/img/bg/cta.jpg") center center;
+  background-size: cover;
+  padding: 60px 0;
+
+  h4 {
+    color: $color-white;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  p {
+    color: $color-white;
+  }
+
+  .community-btn {
+    font-family: $font-family;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: $color-white;
+
+    &:hover {
+      background: $color-white;
+      color: $color-black;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  #community {
+    background-attachment: fixed;
+  }
+}
+
+//IndexCta
