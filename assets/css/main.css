@@ -58,7 +58,7 @@
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #000;
+  color: #333;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -103,7 +103,7 @@
   border: 1px solid rgba(0, 0, 0, 0.208);
 }
 .navbar .getstarted:hover {
-  color: #000;
+  color: #333;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.208);
 }
@@ -608,6 +608,83 @@
   filter: blur(30px) drop-shadow(20px 20px 20px #000);
 }
 
+#community {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../../../assets/img/bg/cta.jpg") center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+#community h4 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+#community p {
+  color: #fff;
+}
+#community .community-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#community .community-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media (min-width: 1024px) {
+  #community {
+    background-attachment: fixed;
+  }
+}
+.mini-hero {
+  background: url(../../../assets/img/bg/hero-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 120px 0 60px;
+}
+.mini-hero::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.mini-hero h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+.mini-hero h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
+@media (min-width: 1025px) {
+  .mini-hero {
+    background-attachment: fixed;
+  }
+}
 #footer {
   background: url("../../../assets/img/bg/footer-bg.webp") no-repeat;
   background-size: cover;
