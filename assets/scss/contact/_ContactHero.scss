@@ -1,0 +1,46 @@
+//ContactHero
+
+.mini-hero {
+  background: url(../../../assets/img/bg/hero-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 120px 0 60px;
+
+  &::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    font-family: $font-family;
+    color: $color-white;
+    mix-blend-mode: difference;
+  }
+  h2{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 72px;
+    font-family: $font-family;
+    color: $color-white;
+    mix-blend-mode: difference;
+  }
+}
+
+@media (min-width: 1025px) {
+  .mini-hero {
+    background-attachment: fixed;
+  }
+}
+
+//ContactHero
