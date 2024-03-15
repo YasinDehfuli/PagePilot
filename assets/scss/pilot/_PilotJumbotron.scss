@@ -1,0 +1,56 @@
+//PilotJumbotron
+#jumbotron {
+  .jumbotron-area {
+    border: $br-black;
+
+    .jumbotron-box {
+      background: $color-black;
+      background: linear-gradient(200deg, rgba(0, 0, 0, 0.7499066521139706) 22%, rgba(255, 255, 255, 0.794724579284839) 71%);
+      text-align: center;
+      padding: 40px;
+
+      img {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+      }
+
+      h3 {
+        font-size: 37px;
+        font-weight: bold;
+        background: #000000;
+        background: linear-gradient(to top right, #000000 42%, #FFFFFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h5 {
+        color: $color-black;
+        font-size: 29px;
+
+        &:before {
+          content: " - ";
+          color: $text-hover;
+        }
+
+        &:after {
+          content: " - ";
+          color: $text-hover;
+        }
+      }
+
+      p {
+        text-transform: uppercase;
+        margin: 0;
+
+        span {
+          text-transform: capitalize;
+          color: $color-black;
+        }
+      }
+    }
+  }
+}
+
+//PilotJumbotron
