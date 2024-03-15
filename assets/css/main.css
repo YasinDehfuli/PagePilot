@@ -783,6 +783,50 @@
   }
 }
 
+#jumbotron .jumbotron-area {
+  border: 1px solid rgba(0, 0, 0, 0.208);
+}
+#jumbotron .jumbotron-area .jumbotron-box {
+  background: #000;
+  background: linear-gradient(200deg, rgba(0, 0, 0, 0.7499066521) 22%, rgba(255, 255, 255, 0.7947245793) 71%);
+  text-align: center;
+  padding: 40px;
+}
+#jumbotron .jumbotron-area .jumbotron-box img {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+#jumbotron .jumbotron-area .jumbotron-box h3 {
+  font-size: 37px;
+  font-weight: bold;
+  background: #000000;
+  background: linear-gradient(to top right, #000000 42%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#jumbotron .jumbotron-area .jumbotron-box h5 {
+  color: #000;
+  font-size: 29px;
+}
+#jumbotron .jumbotron-area .jumbotron-box h5:before {
+  content: " - ";
+  color: #333;
+}
+#jumbotron .jumbotron-area .jumbotron-box h5:after {
+  content: " - ";
+  color: #333;
+}
+#jumbotron .jumbotron-area .jumbotron-box p {
+  text-transform: uppercase;
+  margin: 0;
+}
+#jumbotron .jumbotron-area .jumbotron-box p span {
+  text-transform: capitalize;
+  color: #000;
+}
+
 #footer {
   background: url("../../../assets/img/bg/footer-bg.webp") no-repeat;
   background-size: cover;
