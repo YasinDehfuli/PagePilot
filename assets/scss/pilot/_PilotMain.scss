@@ -1,0 +1,31 @@
+//Pilot Shots
+#pilot-shots {
+  .pilot-shots-area {
+    width: 100%;
+    height: 100%;
+
+    .img-area {
+
+      h6 {
+        color: $color-black;
+
+        &:before {
+          content: '/';
+          color: $text-hover;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        object-fit: contain;
+        border: $br-black;
+        border-bottom: 12px solid black;
+      }
+    }
+  }
+}
+
+//Pilot Shots
